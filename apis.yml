@@ -1,4 +1,16 @@
 aid: novus-via
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/novus-via.png
 name: Novus Via
 description: Novus Via is a company surfaced as a portfolio company of 500-global and added to the API
   Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
@@ -23,3 +35,14 @@ maintainers:
 common:
 - type: Website
   url: https://onepagecrm.com
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+  note: >-
+    Stub identity could not be verified as an API-bearing company. Candidate
+    domains novusvia.io/.co/.com do not resolve; novus-via.com is an unrelated
+    Austrian wellness practice; the stub's listed Website onepagecrm.com is a
+    different company (OnePageCRM) and a mismatched carry-over. No API surface
+    to enrich; nothing fabricated.
